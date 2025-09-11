@@ -1,0 +1,14 @@
+[Unit]
+Description=Flatpak Updates
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/flatpak-updater.sh
+# Environment=TELEGRAM_BOT_TOKEN=
+# Environment=TELEGRAM_CHAT_ID=
+# Environment=TELEGRAM_API_ENDPOINT=
+
+[Install]
+WantedBy=default.target

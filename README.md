@@ -1,5 +1,8 @@
 # Flatpak Updater
 
+[![flatpak-updater](https://img.shields.io/badge/LICENSE-GPLv3%20Liscense-blue?style=flat-square)](./LICENSE)
+[![flatpak-updater](https://img.shields.io/badge/GitHub-Flatpak%20Updater-blueviolet?style=flat-square&logo=github)](https://github.com/fernvenue/flatpak-updater)
+
 Daily automatic updates for flatpak packages.
 
 ## Features
